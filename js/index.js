@@ -3,7 +3,7 @@ import * as d3 from "d3";
 // global data and image paths
 
 // small
-const dataDirName = 'lesmis';
+const dataDirName = 'myGraph';
 // const dataDirName = 'sec-sale'; // labels
 // const dataDirName = 'sec-purchase'; // labels
 // const dataDirName = 'moreno_names';

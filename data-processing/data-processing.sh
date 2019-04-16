@@ -1,24 +1,24 @@
 #!/bin/bash
 
-# takes one command line argument, the graph data name, to be passed into the python scripts
+# takes one command lien argument, the graph data name, to be passed into the python scripts
 
 echo 'decomposition-to-graph-layer.py'
-python decomposition-to-graph-layer.py -data $1
+python3 decomposition-to-graph-layer.py -data $1
 echo -e '\n'
 echo -e '\n'
 
 echo 'graph-layer-add-node-peels.py'
-python graph-layer-add-node-peels.py -data $1
+python3 graph-layer-add-node-peels.py -data $1
 echo -e '\n'
 echo -e '\n'
 
 echo 'gather-statistics.py'
-python gather-statistics.py -data $1
+python3 gather-statistics.py -data $1
 echo -e '\n'
 echo -e '\n'
 
 echo 'process-positions.py'
-python process-positions.py -data $1
+python3 process-positions.py -data $1
 echo -e '\n'
 echo -e '\n'
 
